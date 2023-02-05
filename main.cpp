@@ -457,7 +457,8 @@ void solution()
         }
     }
 
-    std::cout << operands.top();
+    system("cls");
+    std::cout << "Enter the expression\n>>" << lineInput << " = " << doubleToString(operands.top());
 
 
     bool again = false;
